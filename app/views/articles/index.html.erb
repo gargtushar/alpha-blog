@@ -1,5 +1,7 @@
 <h1>Listing all the artilces</h1>
-<p><%= link_to "Create new article", new_article_path %></p>
+<p>
+	<ul> <li style = "display:inline;"><%= link_to "Create new article", new_article_path %></li> <li style = "display:inline;"><%= link_to 'Home', root_path %></li></ul>
+</p>
 <table>
  <tr>
  	<th>Title</th>
@@ -12,6 +14,7 @@
        <td><%= article.description%> </td>
        <td> <%= link_to "Edit", edit_article_path(article) %> </td>
  	   <td> <%= link_to "Show", article_path(article) %> </td>
+ 	   <td> <%= link_to "Delete", article_path(article), method: :delete, data: {confirm: "Aren you sure?"} %> </td>
     </tr>
   <% end %>
 </table>
