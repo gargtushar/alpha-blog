@@ -26,6 +26,21 @@ $navbar-default-bg: #0039e6;
 	letter-spacing: -1px;
 	font-weight: bold;
 }
+.tilt {
+  -webkit-transition: all 0.7s ease;
+     -moz-transition: all 0.7s ease;
+       -o-transition: all 0.7s ease;
+      -ms-transition: all 0.7s ease;
+          transition: all 0.7s ease;
+}
+ 
+.tilt:hover {
+ -webkit-transform: rotate(-360deg);
+     -moz-transform: rotate(-30deg);
+       -o-transform: rotate(-360deg);
+      -ms-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+}
 .shrink {
   -webkit-transition: all 0.7s ease;
      -moz-transition: all 0.7s ease;
@@ -45,16 +60,12 @@ $navbar-default-bg: #0039e6;
 	font-size: 1.7em;
 	background-color: #ff80ff;
 }
+
 footer {
-
 margin-top: 45px;
-
 padding-top: 5px;
-
 border-top: 1px solid #eaeaea;
-
 color: #777;
-
 }
 
 footer a:hover {
