@@ -41,21 +41,7 @@ $navbar-default-bg: #0039e6;
       -ms-transform: rotate(-360deg);
           transform: rotate(-360deg);
 }
-.shrink {
-  -webkit-transition: all 0.7s ease;
-     -moz-transition: all 0.7s ease;
-       -o-transition: all 0.7s ease;
-      -ms-transition: all 0.7s ease;
-          transition: all 0.7s ease;
-}
- 
-.shrink:hover {
- -webkit-transform: rotate(360deg);
-     -moz-transform: rotate(30deg);
-       -o-transform: rotate(360deg);
-      -ms-transform: rotate(360deg);
-          transform: rotate(360deg);
-}
+
 .btn-xlarge{
 	font-size: 1.7em;
 	background-color: #ff80ff;
@@ -107,4 +93,8 @@ padding-bottom: 15px;
 
 .navbar-default .navbar-nav > li > a {
     color: #fff;
+}
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
 }
