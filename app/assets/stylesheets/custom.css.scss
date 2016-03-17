@@ -9,9 +9,9 @@ $navbar-default-bg: #0039e6;
     font-weight: bold;
 }
 #logo:hover{
-	background-color:#ffccff;
+	
 	text-decoration:none;
-	color:#0099e6;
+	color:#777;
 }
 .center{
 	text-align:center;
@@ -105,3 +105,6 @@ padding-top: 15px;
 padding-bottom: 15px;
 }
 
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+}
