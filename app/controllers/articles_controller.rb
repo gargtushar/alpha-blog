@@ -9,7 +9,7 @@ class ArticlesController < ApplicationController
   def new
   	@article = Article.new
   end
-  
+  #this is for creating a new article
   def create
    @article = Article.new(article_params)
     @article.user = current_user
