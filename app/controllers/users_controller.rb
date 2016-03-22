@@ -26,8 +26,7 @@ def update
   	render 'edit'
   end
 end
-   
-def destroy
+def destroy 
   @user = User.find(params[:id])
   @user.destroy
   flash[:danger] = "User and all articles created by user have been deleted"
